@@ -14,3 +14,7 @@ Workspace for example work and offshoot ideas while reading through the big book
 * ` Cargo check ` assesses whether a build is possible without generating an .exe
   * Dumb quick, use for sus code repeatedly
 
+### Guessing Game
+
+Classic, Are you smarter than a CS161 student?
+
