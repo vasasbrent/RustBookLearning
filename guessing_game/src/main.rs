@@ -18,8 +18,8 @@ fn main() {
 
         // Check guess for validity
         let in_guess: u32 = match in_guess.trim().parse() {
-            Ok(num_bv) => {
-                match num_bv {
+            Ok(num) => {
+                match num {
                     1..=100 => num,
                     _ => {
                         println!("Guess must be between 1 and 100!");
