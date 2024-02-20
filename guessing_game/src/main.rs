@@ -10,7 +10,7 @@ fn main() {
     // Main gameplay loop
     loop {
         let mut in_guess = String::new();
-        println!("Enter your guess: ");
+        println!("Enter your guess (1-100): ");
 
         // Take user input
         io::stdin().read_line(&mut in_guess)
@@ -27,8 +27,8 @@ fn main() {
                     }
                 }
             }
-            Err(_) => {
-                println!("Entered expression was not a number!");
+            Err(e) => {
+                eprintln!("Error: {e}");
                 continue;
             }
         };

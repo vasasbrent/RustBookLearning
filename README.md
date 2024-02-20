@@ -26,6 +26,8 @@ I am not.
   * expected "for" or some such
     * Looks like it's just for the early example
     * "for" is syntactially similar to the Python implementation
+* eprintln! macro writes to io::stderr instead of io::stdout
+  * useful for logs later? idk, we'll have to find out
 
 Confused about "num" here:
 
