@@ -1,8 +1,14 @@
-# Rust Book Learning
+# Rust Book Learning<!-- omit in toc -->
 Workspace for example work and offshoot ideas while reading through the big book of Rust
 
-## Sections
+- [1: Getting Started](#1-getting-started)
+  - [1.2: Hello There](#12-hello-there)
+  - [1.3: Hello Cargo](#13-hello-cargo)
+- [2: Guessing Game](#2-guessing-game)
 
+# Sections<!-- omit in toc -->
+
+## 1: Getting Started
 ### 1.2: Hello There
 
 * Special "main" function, drop hot here at execution, makes sense
@@ -15,7 +21,7 @@ Workspace for example work and offshoot ideas while reading through the big book
   * Dumb quick, use for sus code repeatedly
   * Edit: Use with CI to test updating packages automatically?
 
-### 2.0: Guessing Game
+## 2: Guessing Game
 
 Classic, Are you smarter than a CS161 student?
 
@@ -35,4 +41,8 @@ Confused about "num" here:
 
 Where does it come from?
 
-It looks like num is a temporary name we give to the return variable. The Ok arm of a result is allowed to contain more logic. In this program I've expanded it to check if the input number (because we've now checked that it is a number) is within range. If not, print a unique identifier and continue. Pretty slick.
+It looks like num is a temporary name we give to the return variable.
+The Ok arm of a result is allowed to contain more logic.
+In this program I've expanded it to check if the input number (because we've now checked that it is a number) is within range.
+If not, print a unique identifier and continue.
+Pretty slick.
