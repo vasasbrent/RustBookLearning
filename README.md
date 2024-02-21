@@ -5,6 +5,8 @@ Workspace for example work and offshoot ideas while reading through the big book
   - [1.2: Hello There](#12-hello-there)
   - [1.3: Hello Cargo](#13-hello-cargo)
 - [2: Guessing Game](#2-guessing-game)
+- [3: Common Programming Concepts](#3-common-programming-concepts)
+  - [3.1: Variables and Mutability](#31-variables-and-mutability)
 
 # Sections<!-- omit in toc -->
 
@@ -46,3 +48,8 @@ The Ok arm of a result is allowed to contain more logic.
 In this program I've expanded it to check if the input number (because we've now checked that it is a number) is within range.
 If not, print a unique identifier and continue.
 Pretty slick.
+
+## 3: Common Programming Concepts
+
+### 3.1: Variables and Mutability
+
