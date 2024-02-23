@@ -7,6 +7,7 @@ Workspace for example work and offshoot ideas while reading through the big book
 - [2: Guessing Game](#2-guessing-game)
 - [3: Common Programming Concepts](#3-common-programming-concepts)
   - [3.1: Variables and Mutability](#31-variables-and-mutability)
+  - [3.2: Data Types](#32-data-types)
 
 # Sections<!-- omit in toc -->
 
@@ -52,4 +53,15 @@ Pretty slick.
 ## 3: Common Programming Concepts
 
 ### 3.1: Variables and Mutability
+
+We must build a better idiot.
+
+* Variables default to immutable
+  * I'm not knowledgable to understand why this is so important, just going to have to tRust
+* We have our #define (kind of) in const
+* Shadowing would be useful for resetting loop counters, hopefully more profound stuff too
+  * Performing operations on a variable over multiple lines, you do this all the time you goof
+  * You cannot mutate a variables type, but by using shadowing you kind of can
+
+### 3.2: Data Types
 
