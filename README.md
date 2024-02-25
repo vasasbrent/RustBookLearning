@@ -65,3 +65,15 @@ We must build a better idiot.
 
 ### 3.2: Data Types
 
+* Overflow handling methods built in to standard library
+  * wrapping_*, checked_*, overflowing_*, saturating_* (* == add, sub, etc.)
+* Cannot add f64 and f32, f64 is default, wouldn't do f32 unless embedded
+  * Automatic f32-ifying for embedded? We'll find out later maybe
+* Integer division handled like C, rounds down
+  * Symbols samesies looks like, mod operator exists (if 1 return false elseif 2 return true lol)
+* Arrays are always of fixed length
+  * Compiler error if accessing element outside of array (if index access resolved at compile time)
+  * Program will panic if OOR access occurs due to runtime input (shown in example)
+
+![floating addition error - incompatible types](./readme_images/floating_addition_error.png)
+
